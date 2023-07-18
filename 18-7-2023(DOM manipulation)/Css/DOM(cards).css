@@ -1,0 +1,16 @@
+.flex{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    
+    
+}
+.align{
+    text-align: center;
+    
+}
+.border{
+    background-color: white;
+    border:2px groove grey;
+    border-radius: 7px;
+}
