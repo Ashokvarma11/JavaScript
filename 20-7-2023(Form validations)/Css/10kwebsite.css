@@ -1,0 +1,168 @@
+.mar1{
+    margin-left: 15%;
+    
+}
+.mar{
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+
+
+.parent{
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    font-family: "Nuninto",sans-serif;
+    font-weight: 400px;
+}
+.parent nav{
+    flex-grow: 0.5;
+}
+.unord{
+    display: flex;
+
+}
+.unord>li{
+    list-style-type: none;
+    flex-grow: 1;
+}
+.flexdiv{
+    display: flex;
+    justify-content: center;
+    margin-right: 15%;
+    font-family: "Nuninto",sans-serif;
+    font-weight: 400px;
+}
+.button{
+    background-color:orangered;padding:15px;border-radius: 10px;font-size: 23px;color: white;border-width: 0ch;
+}
+.para{
+    font-size: 23px;
+}
+.lists{
+    text-align: center;
+    
+    
+}
+.divss li{
+    list-style-type: none;
+    padding: 0 0 10px 15px;
+}
+
+.ulll{
+    text-align: center;
+    
+}
+
+.h3green{
+    text-align: center;
+    font-weight: 600px;
+    
+}
+
+.width{
+    width: 650px;
+   
+}
+.width1{
+    width: 500px;
+    font-weight: bold;
+   
+}
+
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.text2{
+   text-align: center;
+}
+.flex{
+    display: flex;
+    gap: 10px;
+  
+    
+}
+.bg{
+    background-color: #cdeff5;
+    border-radius: 10px;
+    padding: 10px;
+}
+.flex1{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+    padding-bottom:40px;
+    
+}
+.flex2{
+    display: flex;
+    text-align: center;
+    gap: 100px;
+}
+.grid{
+    display: flex;
+    grid-template-columns: repeat(1,1fr);
+
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.one{
+   grid-column: 1;
+   text-align: center;
+}
+.two{
+    grid-column: 2;
+    text-align: center;
+
+    
+    
+
+}
+.three{
+    grid-column: 3;
+    text-align: center;
+
+}
+.four{
+    grid-column: 1;
+    text-align: center;
+
+}
+.five{
+    grid-column: 2;
+    text-align: center;
+
+}
+.six{
+    grid-column: 3;
+    text-align: center;
+
+}
+.grid1{
+   display: flex;
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.inline{
+    display: inline-block;
+    background-color: aliceblue;
+    border: 1px solid;
+    padding: 10px;
+}
+
