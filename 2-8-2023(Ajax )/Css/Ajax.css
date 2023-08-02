@@ -1,0 +1,20 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    background-color: #f4f8fb;
+    
+    
+}
+.align{
+    text-align: center;
+    
+}
+.border{
+    background-color: white;
+    border:1px groove white;
+    border-radius: 7px;
+}
+.fancy_card:hover {
+    transform: translate3D(0,-1px,0) scale(1.03);
+}
