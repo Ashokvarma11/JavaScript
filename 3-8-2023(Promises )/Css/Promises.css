@@ -1,0 +1,32 @@
+.search{
+    width: 200px;
+    border: whitesmoke;
+    height: 30px;
+    border-style: solid;
+}
+.div{
+    text-align: center;
+    padding: 10px;
+}
+.parent{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: light grey;
+    gap:15px;
+}
+.child{
+    background-color: white;
+    border: whitesmoke;
+    border-radius: 10px;
+    border-style: solid;
+    padding:10px;
+    text-align: center;
+}
+.img{
+    height: 50px;
+    width: 60px; 
+}
+
+.fancy_card:hover {
+    transform: translate3D(0,-1px,0) scale(1.03);
+}
